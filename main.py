@@ -31,10 +31,10 @@ def main_entrance():
     print('========> begin to processing disease data:')
     vectorDBUtils.addDataToCollectionFromMysql(collection, bizUtils.RESOURCE_TYPE_DISEASE, -1)
 
-    # query1
+    # query1: query by attribute value, e.g: attribute id
     testQuery(collection)
 
-    # test2
+    # test2: query by the question content, control the accuracy by the distance value
     #vectorDBUtils.testQueryByText(collection)
 
 
