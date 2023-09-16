@@ -1,0 +1,6 @@
+mysql:
+    host: localhost
+    database: myhealthdb
+    user:
+    password:
+    port: 3306
